@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        // 문자열 타입
+        var str = "가나다라마바사";
+        console.log("str : " + str);
+        console.log("str : " + str + 'ABCDEFG');
+        console.log("str : " + str + '\n\t\"ABCDEFG\"');
+        /* \" ~~ \" : "~~" 출력됨(백슬래시 안넣어도 출력 가능) */
+
+        // 숫자 타입
+        var num = 123;
+        console.log("num : " + num);
+        num = 123.456;
+        console.log("num : " + num);
+        console.log("num : " + num + 100); // 100: 문자로 처리
+        console.log("num : " + (num + 100)); // 100: 숫자로 처리
+
+        // boolean 타입
+        var boo = true; //값 1
+        console.log("boo : " + boo);
+        console.log("boo : " + boo + 1); // 1 : 문자로 처리
+        console.log("boo : " + (boo + 1)); // 숫자로 처리_ 2 출력
+
+        var boo = false; //값 0
+        console.log("boo : " + boo);
+        console.log("boo : " + boo + 1); // 1 : 문자로 처리
+        console.log("boo : " + (boo + 1)); // 숫자로 처리_ 1 출력
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
